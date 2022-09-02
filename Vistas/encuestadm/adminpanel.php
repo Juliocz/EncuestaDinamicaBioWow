@@ -702,10 +702,7 @@ body {
       <script>
         var id_neg="<?php  echo 'negog_'.V::$data->negocio->idun;?>"
         var elm=document.getElementById(id_neg);
-        elm.scrollIntoView({
-         top: 45,
-         behavior: "smooth"
-    }, true);
+        elm.scrollIntoView({behavior: "auto", block: "center", inline: "nearest"}, true);
     elm.style.background="#00000040";
 
     
