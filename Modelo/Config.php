@@ -6,7 +6,7 @@ class V{
     public static $viewData;//en este objeto se guarda todas las funciones de las vistas, esto para hedear cocmo el blade extend
     public static $vf;//variable auxiliar donde se setea la funcion para llamarla
     public static $data;//objeto donde se guardara las variables que se le pasen a la vista
-    public static $ruta_base='http://localhost/encuestapuro/';//esta ruta la usare como base 
+    public static $ruta_base='http://localhost/EncuestaDinamicaBiowow/';//esta ruta la usare como base 
     //para poder colocar bien los redireccionamientos en las vistas
     //en caso se cambie de ubicaccion el proyecto esto se modifica
 /*
